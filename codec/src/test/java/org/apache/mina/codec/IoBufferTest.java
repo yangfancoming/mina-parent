@@ -36,6 +36,9 @@ import java.util.Arrays;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import sun.rmi.runtime.Log;
 
 /**
  * 
@@ -590,7 +593,7 @@ public class IoBufferTest {
         // The limit must back to the available size
         assertEquals(6, ioBuffer.limit());
     }
-
+    public static final Logger log = LoggerFactory.getLogger(IoBufferTest.class);
     /**
      * Test the mark() method
      */
@@ -605,10 +608,11 @@ public class IoBufferTest {
         bb2.flip();
 
         IoBuffer ioBuffer = IoBuffer.wrap(bb1, bb2);
+        log.info("mark = {},position = {},limit = {}",ioBuffer.mark,ioBuffer.position(),ioBuffer.limit());
 
         ioBuffer.position(3);
         ioBuffer.mark();
-
+        log.info("mark = {},position = {},limit = {}",ioBuffer.mark,ioBuffer.position(),ioBuffer.limit());
         // check that we are at the right position
         byte b = ioBuffer.get();
         assertEquals(b, '3');

@@ -115,7 +115,7 @@ public final class IoBuffer {
     private Pointer limit = new Pointer();
 
     /** The current position in the buffer */
-    private Pointer mark = new Pointer();
+    public Pointer mark = new Pointer();
 
     /** The marked position, for the next reset() */
     private Pointer position = new Pointer();
