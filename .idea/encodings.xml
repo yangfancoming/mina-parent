@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/avro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/benchmarks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/benchmarks/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/benchmarks/netty3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/benchmarks/netty4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codec" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitoring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protobuf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thrift" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mina-benchmarks-netty3" />
+        <module name="mina-thrift" />
+        <module name="mina-coap" />
+        <module name="mina-http" />
+        <module name="mina-core" />
+        <module name="mina-protobuf" />
+        <module name="mina-http2" />
+        <module name="mina-benchmarks-common" />
+        <module name="mina-codec" />
+        <module name="mina-avro" />
+        <module name="mina-examples" />
+        <module name="mina-monitoring" />
+        <module name="mina-benchmarks-netty4" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mina-avro" target="1.7" />
+      <module name="mina-benchmarks" target="1.7" />
+      <module name="mina-benchmarks-common" target="1.7" />
+      <module name="mina-benchmarks-netty3" target="1.7" />
+      <module name="mina-benchmarks-netty4" target="1.7" />
+      <module name="mina-coap" target="1.7" />
+      <module name="mina-codec" target="1.6" />
+      <module name="mina-core" target="1.7" />
+      <module name="mina-examples" target="1.7" />
+      <module name="mina-http" target="1.7" />
+      <module name="mina-http2" target="1.7" />
+      <module name="mina-monitoring" target="1.7" />
+      <module name="mina-parent" target="1.7" />
+      <module name="mina-protobuf" target="1.7" />
+      <module name="mina-thrift" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

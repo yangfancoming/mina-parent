@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/avro/mina-avro.iml" filepath="$PROJECT_DIR$/avro/mina-avro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/benchmarks/mina-benchmarks.iml" filepath="$PROJECT_DIR$/benchmarks/mina-benchmarks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/benchmarks/common/mina-benchmarks-common.iml" filepath="$PROJECT_DIR$/benchmarks/common/mina-benchmarks-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/benchmarks/netty3/mina-benchmarks-netty3.iml" filepath="$PROJECT_DIR$/benchmarks/netty3/mina-benchmarks-netty3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/benchmarks/netty4/mina-benchmarks-netty4.iml" filepath="$PROJECT_DIR$/benchmarks/netty4/mina-benchmarks-netty4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coap/mina-coap.iml" filepath="$PROJECT_DIR$/coap/mina-coap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codec/mina-codec.iml" filepath="$PROJECT_DIR$/codec/mina-codec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/mina-core.iml" filepath="$PROJECT_DIR$/core/mina-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/mina-examples.iml" filepath="$PROJECT_DIR$/examples/mina-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http/mina-http.iml" filepath="$PROJECT_DIR$/http/mina-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http2/mina-http2.iml" filepath="$PROJECT_DIR$/http2/mina-http2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitoring/mina-monitoring.iml" filepath="$PROJECT_DIR$/monitoring/mina-monitoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mina-parent.iml" filepath="$PROJECT_DIR$/mina-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protobuf/mina-protobuf.iml" filepath="$PROJECT_DIR$/protobuf/mina-protobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thrift/mina-thrift.iml" filepath="$PROJECT_DIR$/thrift/mina-thrift.iml" />
+    </modules>
+  </component>
+</project>
